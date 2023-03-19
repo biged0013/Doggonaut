@@ -38,6 +38,18 @@ TagManager:
   - 
   - 
   m_SortingLayers:
+  - name: BgElements
+    uniqueID: 1945272761
+    locked: 0
+  - name: PlatformsEnvironmentElements
+    uniqueID: 1870186985
+    locked: 0
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Collectables
+    uniqueID: 1761039861
+    locked: 0
+  - name: PlayerEnemies
+    uniqueID: 1800240215
     locked: 0
