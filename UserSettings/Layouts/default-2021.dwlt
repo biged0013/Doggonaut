@@ -48,7 +48,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 200}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 78
+  controlID: 73
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -111,7 +111,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 1
   m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: ProjectBrowser
+  m_Name: ConsoleWindow
   m_EditorClassIdentifier: 
   m_Children: []
   m_Position:
@@ -120,14 +120,14 @@ MonoBehaviour:
     y: 427
     width: 984
     height: 209
-  m_MinSize: {x: 231, y: 271}
-  m_MaxSize: {x: 10001, y: 10021}
-  m_ActualView: {fileID: 12}
+  m_MinSize: {x: 101, y: 121}
+  m_MaxSize: {x: 4001, y: 4021}
+  m_ActualView: {fileID: 17}
   m_Panes:
   - {fileID: 12}
   - {fileID: 17}
-  m_Selected: 0
-  m_LastSelected: 1
+  m_Selected: 1
+  m_LastSelected: 0
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -223,7 +223,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 200}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 1
-  controlID: 91
+  controlID: 74
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -248,7 +248,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 92
+  controlID: 51
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -317,22 +317,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Graphics/Background Elements
+    - Assets/Scripts
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Graphics/Background Elements
+  - Assets/Scripts
   m_LastFoldersGridSize: -1
   m_LastProjectPath: /Users/kayttaja1/Desktop/GitHub/Doggonaut/Doggonaut
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 40}
-    m_SelectedIDs: ea740000
-    m_LastClickedID: 29930
-    m_ExpandedIDs: 00000000586100006a610000ea74000000ca9a3bffffff7f
+    scrollPos: {x: 0, y: 79}
+    m_SelectedIDs: 9a610000
+    m_LastClickedID: 24986
+    m_ExpandedIDs: 000000008c6100009661000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -360,7 +360,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 0000000058610000
+    m_ExpandedIDs: 000000008c610000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -387,8 +387,8 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 1
-    m_ExpandedInstanceIDs: c62300004262000020610000
+    m_HadKeyboardFocusLastEvent: 0
+    m_ExpandedInstanceIDs: c62300004262000020610000a05e00005a610000f6610000f2610000fa610000ee610000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -487,10 +487,10 @@ MonoBehaviour:
     m_SaveData: []
   m_SceneHierarchy:
     m_TreeViewState:
-      scrollPos: {x: 0, y: 63}
-      m_SelectedIDs: 6c5f0000
-      m_LastClickedID: 24428
-      m_ExpandedIDs: 4e9dffffcaccffffc0d8ffff8af3ffff28fbffff
+      scrollPos: {x: 0, y: 0}
+      m_SelectedIDs: 
+      m_LastClickedID: 0
+      m_ExpandedIDs: 5490ffff9c90ffffc692ffff3693ffff24a8ffff26a8ffff52aaffffc8acffff1eb6ffff7eb8ffffd2bafffff0beffff8ec0ffffcec0ffff7cc1ffffe8c2ffff2ac3ffffdec9ffffe6c9fffffac9fffffcc9ffff38d8ffff40d8ffff54d8ffff0ad9ffff80daffffccdaffff42dbffff70f7ffff28fbffffc093000042a1000044af00006aaf0000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -794,9 +794,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 81.087746, y: -3.929681, z: -114.65451}
+    m_Target: {x: 386.42004, y: 165.67485, z: -114.44619}
     speed: 2
-    m_Value: {x: 81.087746, y: -3.929681, z: -114.65451}
+    m_Value: {x: 386.42004, y: 165.67485, z: -114.44619}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -847,9 +847,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 36.98209
+    m_Target: 281.7966
     speed: 2
-    m_Value: 36.98209
+    m_Value: 281.7966
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -867,7 +867,7 @@ MonoBehaviour:
     m_FarClip: 10000
     m_DynamicClip: 1
     m_OcclusionCulling: 0
-  m_LastSceneViewRotation: {x: -0.08089682, y: -0.019140515, z: 0.0015535314, w: -0.99653983}
+  m_LastSceneViewRotation: {x: -0.08717229, y: 0.89959055, z: -0.21045254, w: -0.3726226}
   m_LastSceneViewOrtho: 0
   m_ReplacementShader: {fileID: 0}
   m_ReplacementString: 
