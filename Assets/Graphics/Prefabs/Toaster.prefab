@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 7499293555139023615}
   - component: {fileID: 7499293555139023364}
   - component: {fileID: 7499293555139023365}
+  - component: {fileID: 1894083633}
   m_Layer: 0
   m_Name: Toaster
   m_TagString: Untagged
@@ -77,7 +78,7 @@ SpriteRenderer:
   m_SortingLayerID: 1800240215
   m_SortingLayer: 2
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: f34834dc490aaf54eb5c93e6ee4c932f, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 82e5a7b0be2253548b54d6a519ffd128, type: 3}
   m_Color: {r: 1, g: 0.99622643, b: 0.99622643, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -105,7 +106,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 10, y: 10}
+    oldSize: {x: 14.13, y: 8.96}
     newSize: {x: 1, y: 1}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -149,6 +150,22 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Bread: {fileID: 3520586360759913920, guid: 5eb1372918b1e404080163fe60c0f419, type: 3}
   BreadPos: {fileID: 7499293555596801776}
+--- !u!111 &1894083633
+Animation:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7499293555139023614}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Animation: {fileID: 7400000, guid: 729d7b5605c58164f926d8dc5e2e4f67, type: 2}
+  m_Animations:
+  - {fileID: 7400000, guid: 729d7b5605c58164f926d8dc5e2e4f67, type: 2}
+  m_WrapMode: 0
+  m_PlayAutomatically: 1
+  m_AnimatePhysics: 0
+  m_CullingType: 0
 --- !u!1 &7499293555596801783
 GameObject:
   m_ObjectHideFlags: 0
