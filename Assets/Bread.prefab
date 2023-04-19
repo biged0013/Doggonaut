@@ -1,10 +1,12 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!1 &2578256962401090337
 =======
 --- !u!1 &5845871387166523914
 >>>>>>> main
+=======
 --- !u!1 &3520586360759913920
 >>>>>>> EdBinGo
 GameObject:
@@ -14,6 +16,7 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
+<<<<<<< HEAD
 <<<<<<< HEAD
   - component: {fileID: 5918394276972774427}
   - component: {fileID: 8793498506360235294}
@@ -42,6 +45,7 @@ GameObject:
   m_StaticEditorFlags: 0
   m_IsActive: 1
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!4 &5918394276972774427
 =======
 --- !u!4 &5845871387166523915
@@ -54,6 +58,7 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD
 <<<<<<< HEAD
   m_GameObject: {fileID: 2578256962401090337}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
@@ -76,6 +81,7 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &8793498506360235294
 =======
@@ -91,6 +97,7 @@ SpriteRenderer:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD
 <<<<<<< HEAD
   m_GameObject: {fileID: 2578256962401090337}
 =======
@@ -136,6 +143,7 @@ SpriteRenderer:
   m_Sprite: {fileID: 21300000, guid: 4c8e0ecf8847e0245806348bc84ad85a, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> EdBinGo
   m_FlipX: 0
@@ -156,6 +164,7 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+<<<<<<< HEAD
 <<<<<<< HEAD
 --- !u!50 &-2408766175296753008
 =======
@@ -184,6 +193,7 @@ Rigidbody2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_GameObject: {fileID: 2578256962401090337}
 =======
   m_GameObject: {fileID: 5845871387166523914}
@@ -195,6 +205,7 @@ Rigidbody2D:
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
+<<<<<<< HEAD
   m_Mass: 0.0001
   m_LinearDrag: 0
 <<<<<<< HEAD
@@ -204,6 +215,7 @@ Rigidbody2D:
   m_AngularDrag: 0
   m_GravityScale: -0.1
 >>>>>>> main
+=======
   m_Mass: 0.01
   m_LinearDrag: 0
   m_AngularDrag: 0.05
@@ -214,6 +226,7 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 1
   m_Constraints: 0
+<<<<<<< HEAD
 <<<<<<< HEAD
 --- !u!114 &-4434843405842946491
 =======
@@ -243,6 +256,7 @@ MonoBehaviour:
   force: 10
 --- !u!61 &3322321305216493888
 >>>>>>> main
+=======
 --- !u!61 &4213116948882863474
 >>>>>>> EdBinGo
 BoxCollider2D:
@@ -251,10 +265,12 @@ BoxCollider2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_GameObject: {fileID: 2578256962401090337}
 =======
   m_GameObject: {fileID: 5845871387166523914}
 >>>>>>> main
+=======
   m_GameObject: {fileID: 3520586360759913920}
 >>>>>>> EdBinGo
   m_Enabled: 1
@@ -275,6 +291,7 @@ BoxCollider2D:
     oldSize: {x: 5, y: 5}
     newSize: {x: 1, y: 1}
 >>>>>>> main
+=======
     oldSize: {x: 20, y: 20}
     newSize: {x: 20, y: 20}
 >>>>>>> EdBinGo
@@ -284,10 +301,12 @@ BoxCollider2D:
   m_AutoTiling: 0
   serializedVersion: 2
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_Size: {x: 20, y: 20}
 =======
   m_Size: {x: 5, y: 5}
 >>>>>>> main
+=======
   m_Size: {x: 20, y: 20}
 >>>>>>> EdBinGo
   m_EdgeRadius: 0
