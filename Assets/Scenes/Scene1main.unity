@@ -1609,8 +1609,8 @@ Animator:
   m_Avatar: {fileID: 0}
   m_Controller: {fileID: 9100000, guid: ef59628c5d689a741b9c52c9ad2bc002, type: 2}
   m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
+  m_UpdateMode: 2
+  m_ApplyRootMotion: 1
   m_LinearVelocityBlending: 0
   m_StabilizeFeet: 0
   m_WarningMessage: 
@@ -1629,7 +1629,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6160129581684626188}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 20088c0fdbaaa49b3971ec7b2d36b719, type: 3}
   m_Name: 
@@ -1646,14 +1646,14 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6160129581684626188}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: a354bf74249d444b7bff4ae89449026c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveSpeed: 10
-  superSpeedMoveControl: 10
-  jumpForce: 10
+  moveSpeed: 1
+  superSpeedMoveControl: 1
+  jumpForce: 1
   rb: {fileID: 6160129581684626193}
   groundCheck: {fileID: 1774754837}
   groundLayer:
