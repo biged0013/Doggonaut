@@ -42,11 +42,11 @@ public class PlayerHealth : MonoBehaviour
         if (collision.CompareTag("Health"))
         {
             // Check if the collided object is tagged as a "MeatBone" or "SuperMeatBone"
-            if (collision.CompareTag("MeatBone"))
+            if (collision.gameObject.name == "MeatBone")
             {
                 currentHealth += 2;
             }
-            else if (collision.CompareTag("SuperMeatBone"))
+            else if(collision.gameObject.name == "SuperMeatBone")
             {
                 currentHealth = maxHealth;
             }

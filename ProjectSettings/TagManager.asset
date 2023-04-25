@@ -6,6 +6,8 @@ TagManager:
   tags:
   - Damager
   - Health
+  - MeatBone
+  - SuperMeatBone
   layers:
   - Default
   - TransparentFX
