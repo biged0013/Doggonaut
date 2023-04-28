@@ -8,6 +8,8 @@ TagManager:
   - Health
   - MeatBone
   - SuperMeatBone
+  - Enemy
+  - Weapon
   layers:
   - Default
   - TransparentFX

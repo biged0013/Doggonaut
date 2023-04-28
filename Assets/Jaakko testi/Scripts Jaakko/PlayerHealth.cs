@@ -7,22 +7,24 @@ public class PlayerHealth : MonoBehaviour
     public int maxHealth = 6;
     [SerializeField] Image[] healthImages;
     [SerializeField] Image gameOver;
+    private bool canTakeDamage;
 
     private Color originalColor; // stores the original color of the health images
 
     void Start()
     {
         gameOver.gameObject.SetActive(false);
-
+        canTakeDamage = true;
         // store the original color of the health images
         originalColor = healthImages[0].color;
     }
 
-    // TODO: Implement the OnTriggerEnter2D() function to handle taking damage from Damager objects
+    // TODO: Implement the OnTriggerEnter2D() function to handle taking damage from Enemy objects
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.gameObject.CompareTag("Damager"))
+        if (collision.gameObject.CompareTag("Enemy"))
         {
+            
             currentHealth--;
             Debug.Log("Current health: " + currentHealth);
 
@@ -44,7 +46,7 @@ public class PlayerHealth : MonoBehaviour
             // Check if the collided object is tagged as a "MeatBone" or "SuperMeatBone"
             if (collision.gameObject.name == "MeatBone")
             {
-                currentHealth += 2;
+                currentHealth += 3;
             }
             else if(collision.gameObject.name == "SuperMeatBone")
             {

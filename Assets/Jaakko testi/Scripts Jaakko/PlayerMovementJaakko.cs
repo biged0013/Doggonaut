@@ -1,3 +1,4 @@
+using System;
 using UnityEngine;
 
 public class PlayerMovementJaakko : MonoBehaviour
@@ -17,7 +18,8 @@ public class PlayerMovementJaakko : MonoBehaviour
     private bool isWalking = false;
     private bool isJumping = false;
     [SerializeField] float jumpCheckRadius;
-    private bool isAttacking = false;
+    public bool isAttacking = false;
+
 
     void Start()
     {
