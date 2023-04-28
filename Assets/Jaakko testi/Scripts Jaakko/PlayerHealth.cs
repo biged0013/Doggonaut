@@ -8,21 +8,27 @@ public class PlayerHealth : MonoBehaviour
     [SerializeField] Image[] healthImages;
     [SerializeField] Image gameOver;
     private bool canTakeDamage;
-
+    [SerializeField] PlayerMovementJaakko playermovement; 
+    bool isAttackingFetched;
     private Color originalColor; // stores the original color of the health images
 
     void Start()
     {
+        
         gameOver.gameObject.SetActive(false);
         canTakeDamage = true;
         // store the original color of the health images
         originalColor = healthImages[0].color;
     }
-
+    void Update()
+    {
+        isAttackingFetched = GetComponent<PlayerMovementJaakko>().isAttacking;
+    }
     // TODO: Implement the OnTriggerEnter2D() function to handle taking damage from Enemy objects
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.gameObject.CompareTag("Enemy"))
+
+        if (collision.gameObject.CompareTag("Enemy") && !isAttackingFetched)
         {
             
             currentHealth--;
@@ -37,10 +43,11 @@ public class PlayerHealth : MonoBehaviour
             if (currentHealth == 0)
             {
                 gameOver.gameObject.SetActive(true);
+                Destroy(gameObject);
             }
         }
 
-        // TODO: Handle collecting health items to replenish the player's health
+        
         if (collision.CompareTag("Health"))
         {
             // Check if the collided object is tagged as a "MeatBone" or "SuperMeatBone"

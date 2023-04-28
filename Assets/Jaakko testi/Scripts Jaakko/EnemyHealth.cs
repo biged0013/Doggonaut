@@ -29,7 +29,8 @@ public class EnemyHealth : MonoBehaviour
     {
         if (collision.CompareTag("Weapon"))
         {
-            TakeDamage(1);
+            TakeDamage(3);
+            Debug.Log("Enemy health is: " + health);
         }
     }
 }
