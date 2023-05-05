@@ -3,6 +3,8 @@ using UnityEngine;
 
 public class PlayerMovementJaakko : MonoBehaviour
 {
+
+
     private float horizontal;
     private float speed = 8f;
     private float jumpingPower = 16f;
@@ -19,11 +21,14 @@ public class PlayerMovementJaakko : MonoBehaviour
     private bool isJumping = false;
     [SerializeField] float jumpCheckRadius;
     public bool isAttacking = false;
+    [SerializeField] PlayerAudio pAudio;
+
+    
 
 
     void Start()
     {
-        animator = GetComponent<Animator>();
+          animator = GetComponent<Animator>();
     }
 
     void Update()
@@ -33,6 +38,8 @@ public class PlayerMovementJaakko : MonoBehaviour
         if (Input.GetButtonDown("Jump") && IsGrounded())
         {
             rb.velocity = new Vector2(rb.velocity.x, jumpingPower);
+            pAudio.PlaySound("Jump");
+
         }
 
         if (Input.GetButtonUp("Jump") && rb.velocity.y > 0f)
@@ -58,7 +65,7 @@ public class PlayerMovementJaakko : MonoBehaviour
         rb.velocity = new Vector2(horizontal * speed, rb.velocity.y);
     }
 
-    private bool IsGrounded()
+    public bool IsGrounded()
     {
         return Physics2D.OverlapCircle(groundCheck.position, jumpCheckRadius, groundLayer);
     }

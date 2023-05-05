@@ -8,10 +8,10 @@ public class PlayerHealth : MonoBehaviour
     [SerializeField] Image[] healthImages;
     [SerializeField] Image gameOver;
     private bool canTakeDamage;
-    [SerializeField] PlayerMovementJaakko playermovement; 
+    PlayerMovementJaakko playermovement; 
     bool isAttackingFetched;
     private Color originalColor; // stores the original color of the health images
-
+    [SerializeField] PlayerAudio pAudio;
     void Start()
     {
         
@@ -30,7 +30,7 @@ public class PlayerHealth : MonoBehaviour
 
         if (collision.gameObject.CompareTag("Enemy") && !isAttackingFetched)
         {
-            
+            pAudio.PlaySound("Hurt");
             currentHealth--;
             Debug.Log("Current health: " + currentHealth);
 
@@ -50,6 +50,7 @@ public class PlayerHealth : MonoBehaviour
         
         if (collision.CompareTag("Health"))
         {
+            pAudio.PlaySound("Bark");
             // Check if the collided object is tagged as a "MeatBone" or "SuperMeatBone"
             if (collision.gameObject.name == "MeatBone")
             {
