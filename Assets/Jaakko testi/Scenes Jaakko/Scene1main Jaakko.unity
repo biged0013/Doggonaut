@@ -3257,7 +3257,7 @@ GameObject:
   - component: {fileID: 1797319301}
   - component: {fileID: 1797319302}
   m_Layer: 0
-  m_Name: Theme
+  m_Name: In-Game Music
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3288,9 +3288,9 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 503fb3cae2d6b114ea4b045f2529fde6, type: 3}
+  m_audioClip: {fileID: 8300000, guid: c8bb6d0c40490cc4aba6235e45f1047d, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 0.296
+  m_Volume: 0.796
   m_Pitch: 1
   Loop: 1
   Mute: 0
