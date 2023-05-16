@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: e4653dc2b67ac924987e9e8cf0656599
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - walkingClip: {instanceID: 0}
+  - jumpClip: {fileID: 8300000, guid: ffa765e94b6eb44498c9b222503041de, type: 3}
+  - hitClip: {instanceID: 0}
+  - hurtClip: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
