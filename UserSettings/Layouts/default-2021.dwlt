@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1536
     height: 774
   m_ShowMode: 4
-  m_Title: Project
+  m_Title: Inspector
   m_RootView: {fileID: 6}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -45,10 +45,10 @@ MonoBehaviour:
     y: 30
     width: 1536
     height: 724
-  m_MinSize: {x: 679, y: 492}
-  m_MaxSize: {x: 14002, y: 14042}
+  m_MinSize: {x: 300, y: 200}
+  m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 23
+  controlID: 84
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -68,8 +68,8 @@ MonoBehaviour:
     y: 0
     width: 363.19995
     height: 724
-  m_MinSize: {x: 276, y: 71}
-  m_MaxSize: {x: 4001, y: 4021}
+  m_MinSize: {x: 275, y: 50}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 13}
   m_Panes:
   - {fileID: 13}
@@ -220,10 +220,10 @@ MonoBehaviour:
     y: 0
     width: 1172.8
     height: 724
-  m_MinSize: {x: 403, y: 492}
-  m_MaxSize: {x: 10001, y: 14042}
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 16192, y: 16192}
   vertical: 1
-  controlID: 97
+  controlID: 63
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -245,10 +245,10 @@ MonoBehaviour:
     y: 0
     width: 1172.8
     height: 428.8
-  m_MinSize: {x: 403, y: 221}
-  m_MaxSize: {x: 8003, y: 4021}
+  m_MinSize: {x: 200, y: 100}
+  m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 98
+  controlID: 64
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -259,7 +259,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 1
   m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: 
+  m_Name: SceneView
   m_EditorClassIdentifier: 
   m_Children: []
   m_Position:
@@ -317,22 +317,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Graphics/Prefabs
+    - Assets/Merja testi/Graphics
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Graphics/Prefabs
+  - Assets/Merja testi/Graphics
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\merja\OneDrive\Tiedostot\GitHub\Doggonaut
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 85.79999}
-    m_SelectedIDs: 246f0000
-    m_LastClickedID: 28452
-    m_ExpandedIDs: 00000000786d00007a6d00007c6d00007e6d0000806d0000826d0000846d000000ca9a3b
+    m_SelectedIDs: 30750000
+    m_LastClickedID: 30000
+    m_ExpandedIDs: 000000002472000026720000287200002a7200002c7200002e720000307200004872000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -360,7 +360,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000786d00007a6d00007c6d00007e6d0000806d0000826d0000846d0000
+    m_ExpandedIDs: 000000002472000026720000287200002a7200002c7200002e72000030720000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -487,10 +487,10 @@ MonoBehaviour:
     m_SaveData: []
   m_SceneHierarchy:
     m_TreeViewState:
-      scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 
-      m_LastClickedID: 0
-      m_ExpandedIDs: 3cf4ffff62f7ffffc8faffff
+      scrollPos: {x: 0, y: 96}
+      m_SelectedIDs: f6faffff
+      m_LastClickedID: -1290
+      m_ExpandedIDs: a0f9ffffa4f9ffffa8f9ffffe8f9ffff58faffff6afaffff2afbffff2cfbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -766,7 +766,7 @@ MonoBehaviour:
       containerId: overlay-toolbar__top
       floating: 0
       collapsed: 0
-      displayed: 0
+      displayed: 1
       snapOffset: {x: 0, y: 0}
       snapOffsetDelta: {x: 0, y: 0}
       snapCorner: 0
@@ -794,9 +794,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 163.80829, y: -19.810978, z: 1.2783477}
+    m_Target: {x: 162.7262, y: -36.94048, z: -1.2869037}
     speed: 2
-    m_Value: {x: 161.78917, y: -20.148832, z: 1.2936075}
+    m_Value: {x: 160.73175, y: -35.900738, z: -1.2500677}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -827,7 +827,7 @@ MonoBehaviour:
       m_Fade:
         m_Target: 0
         speed: 2
-        m_Value: 1
+        m_Value: 0
       m_Color: {r: 0.5, g: 0.5, b: 0.5, a: 0.4}
       m_Pivot: {x: 0, y: 0, z: 0}
       m_Size: {x: 1, y: 1}
@@ -847,9 +847,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 35.435986
+    m_Target: 85.54021
     speed: 2
-    m_Value: 33.910034
+    m_Value: 81.85666
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -894,10 +894,10 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 507
-    y: 94
-    width: 1532
-    height: 790
+    x: 290.80002
+    y: 72
+    width: 880.00006
+    height: 407.8
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
@@ -908,10 +908,10 @@ MonoBehaviour:
   m_ShowGizmos: 0
   m_TargetDisplay: 0
   m_ClearColor: {r: 0, g: 0, b: 0, a: 0}
-  m_TargetSize: {x: 1532, y: 769}
+  m_TargetSize: {x: 880.00006, y: 386.8}
   m_TextureFilterMode: 0
   m_TextureHideFlags: 61
-  m_RenderIMGUI: 0
+  m_RenderIMGUI: 1
   m_EnterPlayModeBehavior: 0
   m_UseMipMap: 0
   m_VSyncEnabled: 0
@@ -923,10 +923,10 @@ MonoBehaviour:
     m_VRangeLocked: 0
     hZoomLockedByDefault: 0
     vZoomLockedByDefault: 0
-    m_HBaseRangeMin: -306.4
-    m_HBaseRangeMax: 306.4
-    m_VBaseRangeMin: -153.8
-    m_VBaseRangeMax: 153.8
+    m_HBaseRangeMin: -176.00002
+    m_HBaseRangeMax: 176.00002
+    m_VBaseRangeMin: -77.36
+    m_VBaseRangeMax: 77.36
     m_HAllowExceedBaseRangeMin: 1
     m_HAllowExceedBaseRangeMax: 1
     m_VAllowExceedBaseRangeMin: 1
@@ -935,7 +935,7 @@ MonoBehaviour:
     m_HSlider: 0
     m_VSlider: 0
     m_IgnoreScrollWheelUntilClicked: 0
-    m_EnableMouseInput: 1
+    m_EnableMouseInput: 0
     m_EnableSliderZoomHorizontal: 0
     m_EnableSliderZoomVertical: 0
     m_UniformScale: 1
@@ -944,23 +944,23 @@ MonoBehaviour:
       serializedVersion: 2
       x: 0
       y: 21
-      width: 1532
-      height: 769
+      width: 880.00006
+      height: 386.8
     m_Scale: {x: 2, y: 2}
-    m_Translation: {x: 766, y: 384.5}
+    m_Translation: {x: 440.00003, y: 193.4}
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
     m_MarginBottom: 0
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
-      x: -383
-      y: -192.25
-      width: 766
-      height: 384.5
+      x: -220.00002
+      y: -96.7
+      width: 440.00003
+      height: 193.4
     m_MinimalGUI: 1
   m_defaultScale: 2
-  m_LastWindowPixelSize: {x: 3830, y: 1975}
+  m_LastWindowPixelSize: {x: 2200.0002, y: 1019.5}
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1
   m_LowResolutionForAspectRatios: 01000000000000000000
