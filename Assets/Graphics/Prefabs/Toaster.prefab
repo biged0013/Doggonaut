@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 7499293555139023615}
   - component: {fileID: 7499293555139023364}
   - component: {fileID: 7499293555139023365}
+  - component: {fileID: 2721275825159067004}
   m_Layer: 0
   m_Name: Toaster
   m_TagString: Untagged
@@ -149,6 +150,22 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Bread: {fileID: 3520586360759913920, guid: 5eb1372918b1e404080163fe60c0f419, type: 3}
   BreadPos: {fileID: 7499293555596801776}
+--- !u!58 &2721275825159067004
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7499293555139023614}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Radius: 5
 --- !u!1 &7499293555596801783
 GameObject:
   m_ObjectHideFlags: 0
