@@ -4,12 +4,13 @@ using UnityEngine;
 
 public class EnemyHealth : MonoBehaviour
 {
-    public int maxHealth;
-    public int health;
     
+    public int health;
+    bool isAttackingFetched;
     void Start()
     {
-        health = maxHealth;
+        
+        
     }
 
     
@@ -27,7 +28,8 @@ public class EnemyHealth : MonoBehaviour
     }
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.CompareTag("Weapon"))
+        isAttackingFetched = GetComponent<PlayerMovementJaakko>().isAttacking;
+        if (collision.CompareTag("Weapon") && isAttackingFetched)
         {
             TakeDamage(3);
             Debug.Log("Enemy health is: " + health);

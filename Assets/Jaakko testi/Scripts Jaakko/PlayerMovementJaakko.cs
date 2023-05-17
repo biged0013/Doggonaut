@@ -6,7 +6,7 @@ public class PlayerMovementJaakko : MonoBehaviour
 
 
     private float horizontal;
-    private float speed = 8f;
+    [SerializeField] private float speed = 8f;
     private float jumpingPower = 16f;
     private bool isFacingRight = true;
 
@@ -21,6 +21,9 @@ public class PlayerMovementJaakko : MonoBehaviour
     private bool isJumping = false;
     [SerializeField] float jumpCheckRadius;
     public bool isAttacking = false;
+    private float attackDuration = 0.5f; // Duration in seconds
+    private float attackTimer = 0.0f;
+
     [SerializeField] PlayerAudio pAudio;
 
     
@@ -47,13 +50,20 @@ public class PlayerMovementJaakko : MonoBehaviour
             rb.velocity = new Vector2(rb.velocity.x, rb.velocity.y * 0.5f);
         }
 
-        if (Input.GetKey(KeyCode.Mouse0))
+        if (Input.GetKeyDown(KeyCode.Mouse0))
         {
             isAttacking = true;
+            attackTimer = attackDuration; // Set the timer to the duration
         }
-        else
+
+        if (isAttacking)
         {
-            isAttacking = false;
+            attackTimer -= Time.deltaTime; // Decrease the timer
+
+            if (attackTimer <= 0.0f)
+            {
+                isAttacking = false; // Reset isAttacking to false
+            }
         }
 
         Flip();

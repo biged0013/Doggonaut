@@ -9,7 +9,7 @@ public class PlayerHealth : MonoBehaviour
     [SerializeField] Image gameOver;
     private bool canTakeDamage;
     PlayerMovementJaakko playermovement; 
-    bool isAttackingFetched;
+    bool isAttackingFetched = true;
     private Color originalColor; // stores the original color of the health images
     [SerializeField] PlayerAudio pAudio;
     void Start()
@@ -22,12 +22,12 @@ public class PlayerHealth : MonoBehaviour
     }
     void Update()
     {
-        isAttackingFetched = GetComponent<PlayerMovementJaakko>().isAttacking;
+        
     }
     // TODO: Implement the OnTriggerEnter2D() function to handle taking damage from Enemy objects
     private void OnTriggerEnter2D(Collider2D collision)
     {
-
+        isAttackingFetched = GetComponent<PlayerMovementJaakko>().isAttacking;
         if (collision.gameObject.CompareTag("Enemy") && !isAttackingFetched)
         {
             pAudio.PlaySound("Hurt");

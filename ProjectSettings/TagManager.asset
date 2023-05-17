@@ -10,6 +10,7 @@ TagManager:
   - SuperMeatBone
   - Enemy
   - Weapon
+  - Ball
   layers:
   - Default
   - TransparentFX
