@@ -46,7 +46,10 @@ public class PlayerHealth : MonoBehaviour
                 Destroy(gameObject);
             }
         }
-
+        if (collision.CompareTag("Ball"))
+        {
+            pAudio.PlaySound("Happy");
+        }
         
         if (collision.CompareTag("Health"))
         {

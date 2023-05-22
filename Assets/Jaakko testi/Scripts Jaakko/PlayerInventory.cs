@@ -9,6 +9,7 @@ public class PlayerInventory : MonoBehaviour
     public int currentBalls = 0;
     public TextMeshProUGUI balls;
 
+
     // Update is called once per frame
     void Update()
     {

@@ -2,8 +2,8 @@ using UnityEngine;
 
 public class PlayerAudio : MonoBehaviour
 {
-    [SerializeField] private AudioClip walkingClip, jumpClip, hitClip, hurtClip, barkClip;
-    [SerializeField] private AudioSource walkingSource, jumpSource, hitSource, hurtSource, barkSource;
+    [SerializeField] private AudioClip walkingClip, jumpClip, hitClip, hurtClip, barkClip, happyClip;
+    [SerializeField] private AudioSource walkingSource, jumpSource, hitSource, hurtSource, barkSource, happySource;
 
     void Start()
     {
@@ -13,6 +13,7 @@ public class PlayerAudio : MonoBehaviour
         hitSource = transform.Find("HitSource").GetComponent<AudioSource>();
         hurtSource = transform.Find("HurtSource").GetComponent<AudioSource>();
         barkSource = transform.Find("BarkSource").GetComponent<AudioSource>();
+        happySource = transform.Find("HappySource").GetComponent<AudioSource>();
     }
 
     public void PlaySound(string soundName)
@@ -39,6 +40,10 @@ public class PlayerAudio : MonoBehaviour
             case "Bark":
                 barkSource.clip = barkClip;
                 barkSource.Play();
+                break;
+            case "Happy":
+                happySource.clip = happyClip;
+                happySource.Play();
                 break;
         }
     }

@@ -54,6 +54,7 @@ public class PlayerMovementJaakko : MonoBehaviour
         {
             isAttacking = true;
             attackTimer = attackDuration; // Set the timer to the duration
+            pAudio.PlaySound("Hit");
         }
 
         if (isAttacking)
@@ -65,6 +66,7 @@ public class PlayerMovementJaakko : MonoBehaviour
                 isAttacking = false; // Reset isAttacking to false
             }
         }
+   
 
         Flip();
         UpdateAnimator();
@@ -115,24 +117,29 @@ public class PlayerMovementJaakko : MonoBehaviour
     // Update the animator based on the current state
     private void UpdateAnimator()
     {
-        if (horizontal != 0 && isIdle)
+        bool wasWalking = isWalking; // Store the previous state of isWalking
+
+        // Update isWalking based on the conditions
+        isWalking = horizontal != 0 && IsGrounded();
+
+        // Check if the state of isWalking has changed
+        if (isWalking != wasWalking)
         {
-            isIdle = false;
-            isWalking = true;
-            animator.SetBool("isIdle", isIdle);
-            animator.SetBool("isWalking", isWalking);
-        }
-        else if (horizontal == 0 && !isIdle)
-        {
-            isIdle = true;
-            isWalking = false;
-            animator.SetBool("isIdle", isIdle);
-            animator.SetBool("isWalking", isWalking);
+            if (isWalking)
+            {
+                pAudio.PlaySound("Walking"); // Play the walking sound when starting to walk
+            }
+
         }
 
+        // Update other animator parameters
+        isIdle = !isWalking;
         isJumping = !IsGrounded();
-        animator.SetBool("isJumping", isJumping);
 
+        animator.SetBool("isIdle", isIdle);
+        animator.SetBool("isWalking", isWalking);
+        animator.SetBool("isJumping", isJumping);
         animator.SetBool("isAttacking", isAttacking);
     }
+
 }
