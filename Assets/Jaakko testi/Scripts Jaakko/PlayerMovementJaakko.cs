@@ -1,10 +1,7 @@
-using System;
 using UnityEngine;
 
 public class PlayerMovementJaakko : MonoBehaviour
 {
-
-
     private float horizontal;
     [SerializeField] private float speed = 8f;
     private float jumpingPower = 16f;
@@ -21,17 +18,14 @@ public class PlayerMovementJaakko : MonoBehaviour
     private bool isJumping = false;
     [SerializeField] float jumpCheckRadius;
     public bool isAttacking = false;
-    private float attackDuration = 0.5f; // Duration in seconds
-    private float attackTimer = 0.0f;
 
-    [SerializeField] PlayerAudio pAudio;
+    [SerializeField] private PlayerAudio pAudio;
 
-    
-
+    private bool wasWalking = false; // Track the previous walking state
 
     void Start()
     {
-          animator = GetComponent<Animator>();
+        animator = GetComponent<Animator>();
     }
 
     void Update()
@@ -42,7 +36,6 @@ public class PlayerMovementJaakko : MonoBehaviour
         {
             rb.velocity = new Vector2(rb.velocity.x, jumpingPower);
             pAudio.PlaySound("Jump");
-
         }
 
         if (Input.GetButtonUp("Jump") && rb.velocity.y > 0f)
@@ -53,20 +46,13 @@ public class PlayerMovementJaakko : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Mouse0))
         {
             isAttacking = true;
-            attackTimer = attackDuration; // Set the timer to the duration
             pAudio.PlaySound("Hit");
         }
 
         if (isAttacking)
         {
-            attackTimer -= Time.deltaTime; // Decrease the timer
-
-            if (attackTimer <= 0.0f)
-            {
-                isAttacking = false; // Reset isAttacking to false
-            }
+            // Add your attack code here
         }
-   
 
         Flip();
         UpdateAnimator();
@@ -93,43 +79,22 @@ public class PlayerMovementJaakko : MonoBehaviour
         }
     }
 
-    // Added code for moving left and right
-    public void Move(float moveInput)
-    {
-        horizontal = moveInput;
-    }
+    
 
-    // Added code for jumping
-    public void Jump()
-    {
-        if (IsGrounded())
-        {
-            rb.velocity = new Vector2(rb.velocity.x, jumpingPower);
-        }
-    }
-
-    // Added code for attacking
-    public void Attack()
-    {
-        // Add your attack code here
-    }
-
-    // Update the animator based on the current state
     private void UpdateAnimator()
     {
-        bool wasWalking = isWalking; // Store the previous state of isWalking
-
-        // Update isWalking based on the conditions
-        isWalking = horizontal != 0 && IsGrounded();
+        bool isWalking = horizontal != 0 && IsGrounded();
 
         // Check if the state of isWalking has changed
-        if (isWalking != wasWalking)
+        if (isWalking && !wasWalking)
         {
-            if (isWalking)
-            {
-                pAudio.PlaySound("Walking"); // Play the walking sound when starting to walk
-            }
-
+            pAudio.PlaySound("Walking"); // Play the walking sound when starting to walk
+            wasWalking = true;
+        }
+        else if (!isWalking && wasWalking)
+        {
+            pAudio.StopWalkingSound(); // Stop the walking sound when stopping
+            wasWalking = false;
         }
 
         // Update other animator parameters
@@ -142,4 +107,14 @@ public class PlayerMovementJaakko : MonoBehaviour
         animator.SetBool("isAttacking", isAttacking);
     }
 
+
+
+    private System.Collections.IEnumerator LoopWalkingSound()
+    {
+        while (true)
+        {
+            pAudio.PlaySound("Walking");
+            yield return null;
+        }
+    }
 }
