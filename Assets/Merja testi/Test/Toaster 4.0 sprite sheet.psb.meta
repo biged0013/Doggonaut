@@ -1,0 +1,869 @@
+fileFormatVersion: 2
+guid: af77cf80e5e39464e9b0d4a18eb3a04b
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: b2a9591990af98743ba3ff7cf1000886, type: 3}
+  textureImporterSettings:
+    alphaSource: 1
+    mipMapMode: 0
+    enableMipMap: 1
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+    convertToNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    isReadable: 0
+    streamingMipmaps: 1
+    streamingMipmapsPriority: 0
+    vTOnly: 0
+    ignoreMasterTextureLimit: 0
+    nPOTScale: 1
+    sRGBTexture: 1
+    spriteMode: 2
+    spriteExtrude: 1
+    spriteMeshType: 1
+    alignment: 0
+    spritePivot: {x: 0.5, y: 0.5}
+    spritePixelsToUnits: 100
+    spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+    spriteGenerateFallbackPhysicsShape: 0
+    generateCubemap: 6
+    cubemapConvolution: 0
+    seamlessCubemap: 0
+    alphaIsTransparency: 1
+    spriteTessellationDetail: -1
+    textureType: 8
+    textureShape: 1
+    singleChannelComponent: 0
+    flipbookRows: 0
+    flipbookColumns: 0
+    ignorePngGamma: 0
+    cookieMode: 0
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 0
+    wrapV: 0
+    wrapW: 0
+    normalMap: 0
+    textureFormat: 0
+    maxTextureSize: 0
+    lightmap: 0
+    compressionQuality: 0
+    linearTexture: 0
+    grayScaleToAlpha: 0
+    rGBM: 0
+    cubemapConvolutionSteps: 0
+    cubemapConvolutionExponent: 0
+    maxTextureSizeSet: 0
+    compressionQualitySet: 0
+    textureFormatSet: 0
+    applyGammaDecoding: 0
+  spriteImportData:
+  - name: 
+    originalName: 
+    pivot: {x: 0, y: 0}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    spriteID: 
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 0, y: 0}
+    spritePosition: {x: 0, y: 0}
+  mosaicSpriteImportData: []
+  rigSpriteImportData:
+  - name: 9,5Toaster 4.0 sprite sheet_1
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 3637
+      width: 515
+      height: 311
+    spriteID: d79048d68107396468a3e29c5ac59bac
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 0, y: 3637}
+    spritePosition: {x: 0, y: 0}
+  - name: 17 Toaster 4.0 sprite sheet_2
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 3
+      y: 3335
+      width: 528
+      height: 300
+    spriteID: d30c449c1a0a2464e9bca8f85169119d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 3, y: 3335}
+    spritePosition: {x: 0, y: 0}
+  - name: 9 Toaster 4.0 sprite sheet_4
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 3025
+      width: 547
+      height: 306
+    spriteID: 7572f2d04b3677e4f9acb110134e6d7a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 0, y: 3025}
+    spritePosition: {x: 0, y: 0}
+  - name: 18 Toaster 4.0 sprite sheet_5
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 3
+      y: 2729
+      width: 550
+      height: 300
+    spriteID: 47d1f9d267883e241bfcf7d087acf12b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 3, y: 2729}
+    spritePosition: {x: 0, y: 0}
+  - name: 8 Toaster 4.0 sprite sheet_6
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 603
+      y: 2729
+      width: 504
+      height: 300
+    spriteID: 4ec2a93a137a8934793ea6643ce39e57
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 603, y: 2729}
+    spritePosition: {x: 0, y: 0}
+  - name: 15 Toaster 4.0 sprite sheet_7
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 3
+      y: 2421
+      width: 556
+      height: 298
+    spriteID: f52c02f53b340d544b18eb39cc8b84db
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 3, y: 2421}
+    spritePosition: {x: 0, y: 0}
+  - name: 7 Toaster 4.0 sprite sheet_8
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 603
+      y: 2427
+      width: 504
+      height: 298
+    spriteID: 467be1d4b1452974abf33238ba528dff
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 603, y: 2427}
+    spritePosition: {x: 0, y: 0}
+  - name: 19 Toaster 4.0 sprite sheet_9
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 3
+      y: 2123
+      width: 574
+      height: 300
+    spriteID: 6a44e64c517ffae49a7735c2a7e1a277
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 3, y: 2123}
+    spritePosition: {x: 0, y: 0}
+  - name: 6 Toaster 4.0 sprite sheet_10
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 603
+      y: 2123
+      width: 504
+      height: 300
+    spriteID: c2a17689f19df3448bd740ed58a47aa9
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 603, y: 2123}
+    spritePosition: {x: 0, y: 0}
+  - name: 10 Toaster 4.0 sprite sheet_12
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 1821
+      width: 579
+      height: 298
+    spriteID: 520f16dbe76673342b6a76419b142b20
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 0, y: 1821}
+    spritePosition: {x: 0, y: 0}
+  - name: 5 Toaster 4.0 sprite sheet_13
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 603
+      y: 1821
+      width: 504
+      height: 298
+    spriteID: 39a908936d0e54c42a17ea9481a72d1b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 603, y: 1821}
+    spritePosition: {x: 0, y: 0}
+  - name: 11 Toaster 4.0 sprite sheet_15
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 1517
+      width: 579
+      height: 300
+    spriteID: 9529887d02551a146839e4b812e03d41
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 0, y: 1517}
+    spritePosition: {x: 0, y: 0}
+  - name: 4,5 Toaster 4.0 sprite sheet_16
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 603
+      y: 1517
+      width: 504
+      height: 300
+    spriteID: e85eac314b2cbd446b3ee62c638c4ebc
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 603, y: 1517}
+    spritePosition: {x: 0, y: 0}
+  - name: 12 Toaster 4.0 sprite sheet_18
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 1213
+      width: 579
+      height: 307
+    spriteID: 5d8816712ec56734192d24b2d08039cd
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 0, y: 1213}
+    spritePosition: {x: 0, y: 0}
+  - name: 4 Toaster 4.0 sprite sheet_19
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 603
+      y: 1213
+      width: 504
+      height: 300
+    spriteID: 8267af95ad05d914eaac7eac0f9616d3
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 603, y: 1213}
+    spritePosition: {x: 0, y: 0}
+  - name: 13 Toaster 4.0 sprite sheet_21
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 911
+      width: 587
+      height: 310
+    spriteID: dbc14c6a1e5e2a246aa3cc5444c63073
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 0, y: 911}
+    spritePosition: {x: 0, y: 0}
+  - name: 3 Toaster 4.0 sprite sheet_22
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 603
+      y: 911
+      width: 504
+      height: 300
+    spriteID: 533f68fe6fac66f4f8732a1e64672cc8
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 603, y: 911}
+    spritePosition: {x: 0, y: 0}
+  - name: 14 Toaster 4.0 sprite sheet_24
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 609
+      width: 587
+      height: 303
+    spriteID: 97895a3ae6435194e96974be9259de9b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 0, y: 609}
+    spritePosition: {x: 0, y: 0}
+  - name: 2 Toaster 4.0 sprite sheet_25
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 603
+      y: 609
+      width: 504
+      height: 298
+    spriteID: 4bed86d0bb3b56845aea0faab520f662
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 603, y: 609}
+    spritePosition: {x: 0, y: 0}
+  - name: 16 Toaster 4.0 sprite sheet_27
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 305
+      width: 587
+      height: 304
+    spriteID: 62e6074a0bf8cf244b085c5bab492f92
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 0, y: 305}
+    spritePosition: {x: 0, y: 0}
+  - name: 1 Toaster 4.0 sprite sheet_28
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 603
+      y: 305
+      width: 504
+      height: 300
+    spriteID: 9d9578c2a23511f46a65b821f5a63894
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 603, y: 305}
+    spritePosition: {x: 0, y: 0}
+  - name: 20 Toaster 4.0 sprite sheet_30
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 3
+      width: 599
+      height: 301
+    spriteID: ad2a18928d41df949b95afebe45f63ab
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 0, y: 3}
+    spritePosition: {x: 0, y: 0}
+  - name: 21Toaster 4.0 sprite sheet_31
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 605
+      y: 3
+      width: 504
+      height: 298
+    spriteID: 23ce65dbaacc66742804debb6ea49e0c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 605, y: 3}
+    spritePosition: {x: 0, y: 0}
+  characterData:
+    bones: []
+    parts: []
+    dimension: {x: 0, y: 0}
+    characterGroups: []
+    boneReadOnly: 0
+  sharedRigSpriteImportData: []
+  sharedRigCharacterData:
+    bones: []
+    parts: []
+    dimension: {x: 0, y: 0}
+    characterGroups: []
+    boneReadOnly: 0
+  platformSettings: []
+  mosaicLayers: 1
+  characterMode: 1
+  documentPivot: {x: 0, y: 0}
+  documentAlignment: 7
+  importHiddenLayers: 0
+  layerMappingOption: 2
+  generatePhysicsShape: 0
+  paperDollMode: 0
+  keepDupilcateSpriteName: 1
+  skeletonAssetReferenceID: 
+  spriteCategoryList:
+    categories: []
+  spritePackingTag: 
+  resliceFromLayer: 0
+  mosaicPSDLayers: []
+  rigPSDLayers:
+  - name: Frame 1
+    spriteName: Frame 1
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 309bdfeb5ad044d4bb7ba09bd1218fd0
+    layerID: 2
+    mosaicPosition: {x: 605, y: 307}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Frame 2
+    spriteName: Frame 2
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 1e447cca824c63349a698f72d1cd7e8f
+    layerID: 3
+    mosaicPosition: {x: 605, y: 610}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Frame 3
+    spriteName: Frame 3
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 7bd227483164d43469253d4a84cc25c7
+    layerID: 4
+    mosaicPosition: {x: 605, y: 913}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Frame 4
+    spriteName: Frame 4
+    isGroup: 0
+    parentIndex: -1
+    spriteID: c1fd695882767d24ba689f3fbf79ec2a
+    layerID: 5
+    mosaicPosition: {x: 605, y: 1216}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Frame 5
+    spriteName: Frame 5
+    isGroup: 0
+    parentIndex: -1
+    spriteID: d0a3750bf778c0b4aadea24a59eac85a
+    layerID: 6
+    mosaicPosition: {x: 605, y: 1519}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Frame 6
+    spriteName: Frame 6
+    isGroup: 0
+    parentIndex: -1
+    spriteID: c7a0505cc5a63fa4f834d59e5d75d5d1
+    layerID: 7
+    mosaicPosition: {x: 605, y: 1822}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Frame 7
+    spriteName: Frame 7
+    isGroup: 0
+    parentIndex: -1
+    spriteID: d04a7297defdee74bb3aa479cc472e14
+    layerID: 8
+    mosaicPosition: {x: 605, y: 2125}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Frame 8
+    spriteName: Frame 8
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 931bc4b8ff7c5914bbcf61e954ba094a
+    layerID: 9
+    mosaicPosition: {x: 605, y: 2428}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Frame 9
+    spriteName: Frame 9
+    isGroup: 0
+    parentIndex: -1
+    spriteID: a9d41ec8a95d5ec4889b4ee95637e860
+    layerID: 10
+    mosaicPosition: {x: 605, y: 2731}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Frame 10
+    spriteName: Frame 10
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 73c24b42108ca724a9b9b12da6d42488
+    layerID: 11
+    mosaicPosition: {x: 4, y: 3640}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Frame 11
+    spriteName: Frame 11
+    isGroup: 0
+    parentIndex: -1
+    spriteID: b2e13583fd2bad54ab5b6e4857e1a7cf
+    layerID: 12
+    mosaicPosition: {x: 4, y: 3034}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Frame 12
+    spriteName: Frame 12
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 04a08489489114543aac4c19b507f0f4
+    layerID: 13
+    mosaicPosition: {x: 4, y: 1216}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Frame 13
+    spriteName: Frame 13
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 8aef309bc02b6ab44b9042bd90dc2ea1
+    layerID: 14
+    mosaicPosition: {x: 4, y: 1519}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Frame 14
+    spriteName: Frame 14
+    isGroup: 0
+    parentIndex: -1
+    spriteID: ee125b4ed123f84498fd75077afb40e3
+    layerID: 15
+    mosaicPosition: {x: 4, y: 1822}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Frame 15
+    spriteName: Frame 15
+    isGroup: 0
+    parentIndex: -1
+    spriteID: b65d5c1d3c37f2c41b20a07f6d3edc02
+    layerID: 16
+    mosaicPosition: {x: 4, y: 2428}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Frame 16
+    spriteName: Frame 16
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 49a2f30ead189ec4ca156f5231b49b38
+    layerID: 17
+    mosaicPosition: {x: 4, y: 307}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Frame 17
+    spriteName: Frame 17
+    isGroup: 0
+    parentIndex: -1
+    spriteID: b8f8123b743ff8049870133e72b3a109
+    layerID: 18
+    mosaicPosition: {x: 4, y: 610}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Frame 18
+    spriteName: Frame 18
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 23862eaa4c77c244cacbb6fc123937d6
+    layerID: 19
+    mosaicPosition: {x: 4, y: 913}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Frame 19
+    spriteName: Frame 19
+    isGroup: 0
+    parentIndex: -1
+    spriteID: e79df4711e5f55a4e9d1bf5629c4d0f9
+    layerID: 20
+    mosaicPosition: {x: 605, y: 4}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Frame 20
+    spriteName: Frame 20
+    isGroup: 0
+    parentIndex: -1
+    spriteID: c9c9e72f5c8769d48ad503afce96ed6e
+    layerID: 21
+    mosaicPosition: {x: 4, y: 3337}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Frame 21
+    spriteName: Frame 21
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 285fcd9bf67a1cd4e97b4afd896049d6
+    layerID: 22
+    mosaicPosition: {x: 4, y: 2731}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Frame 22
+    spriteName: Frame 22
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 0f52bf5cd92bd1343baccf671ea91a87
+    layerID: 23
+    mosaicPosition: {x: 4, y: 2125}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Frame 23
+    spriteName: Frame 23
+    isGroup: 0
+    parentIndex: -1
+    spriteID: f4c2ec2543bcca743bf31e638da0b2dd
+    layerID: 24
+    mosaicPosition: {x: 4, y: 4}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  sharedRigPSDLayers: []
+  pSDLayerImportSetting: []
+  generateGOHierarchy: 0
+  textureAssetName: 
+  prefabAssetName: 
+  spriteLibAssetName: 
+  skeletonAssetName: 
+  secondarySpriteTextures: []
