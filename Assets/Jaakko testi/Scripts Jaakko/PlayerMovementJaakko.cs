@@ -38,15 +38,11 @@ public class PlayerMovementJaakko : MonoBehaviour
             pAudio.PlaySound("Jump");
         }
 
-        if (Input.GetButtonUp("Jump") && rb.velocity.y > 0f)
-        {
-            rb.velocity = new Vector2(rb.velocity.x, rb.velocity.y * 0.5f);
-        }
-
         if (Input.GetKeyDown(KeyCode.Mouse0))
         {
             isAttacking = true;
             pAudio.PlaySound("Hit");
+            StartCoroutine(ResetAttackState()); // Start a coroutine to reset the isAttacking state
         }
 
         if (isAttacking)
@@ -54,9 +50,16 @@ public class PlayerMovementJaakko : MonoBehaviour
             // Add your attack code here
         }
 
+        if (Input.GetButtonUp("Jump") && rb.velocity.y > 0f)
+        {
+            rb.velocity = new Vector2(rb.velocity.x, rb.velocity.y * 0.5f);
+        }
+
         Flip();
         UpdateAnimator();
     }
+
+
 
     private void FixedUpdate()
     {
@@ -109,12 +112,10 @@ public class PlayerMovementJaakko : MonoBehaviour
 
 
 
-    private System.Collections.IEnumerator LoopWalkingSound()
+    private System.Collections.IEnumerator ResetAttackState()
     {
-        while (true)
-        {
-            pAudio.PlaySound("Walking");
-            yield return null;
-        }
+        yield return new WaitForSeconds(0.5f); // Adjust the delay as needed
+        isAttacking = false; // Reset isAttacking to false after a delay
     }
+
 }

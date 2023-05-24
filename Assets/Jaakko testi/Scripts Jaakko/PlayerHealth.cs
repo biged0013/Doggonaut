@@ -33,6 +33,7 @@ public class PlayerHealth : MonoBehaviour
             pAudio.PlaySound("Hurt");
             currentHealth--;
             Debug.Log("Current health: " + currentHealth);
+            GetComponent<Rigidbody2D>().AddForce(new Vector2(0, 20), ForceMode2D.Impulse);
 
             if (currentHealth >= 0 && currentHealth < healthImages.Length)
             {

@@ -10,12 +10,12 @@ public class PlayerAudio : MonoBehaviour
     void Start()
     {
         // Get the AudioSource components attached to the player
-        walkingSource = transform.Find("WalkingSource").GetComponent<AudioSource>();
-        jumpSource = transform.Find("JumpSource").GetComponent<AudioSource>();
-        hitSource = transform.Find("HitSource").GetComponent<AudioSource>();
-        hurtSource = transform.Find("HurtSource").GetComponent<AudioSource>();
-        barkSource = transform.Find("BarkSource").GetComponent<AudioSource>();
-        happySource = transform.Find("HappySource").GetComponent<AudioSource>();
+        //walkingSource = transform.Find("WalkingSource").GetComponent<AudioSource>();
+        //jumpSource = transform.Find("JumpSource").GetComponent<AudioSource>();
+        //hitSource = transform.Find("HitSource").GetComponent<AudioSource>();
+        //hurtSource = transform.Find("HurtSource").GetComponent<AudioSource>();
+        //barkSource = transform.Find("BarkSource").GetComponent<AudioSource>();
+        //happySource = transform.Find("HappySource").GetComponent<AudioSource>();
 
         walkingSource.loop = true;
     }

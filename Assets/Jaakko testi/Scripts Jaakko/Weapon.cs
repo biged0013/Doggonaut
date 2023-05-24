@@ -20,7 +20,7 @@ public class Weapon : MonoBehaviour
     {
         if (collision.GetComponent<Collider2D>().gameObject.CompareTag("Enemy"))
         {
-            collision.gameObject.GetComponent<EnemyHealth>().TakeDamage(damage);
+           // collision.gameObject.GetComponent<EnemyHealth>().TakeDamage(damage);
         }
         
 
