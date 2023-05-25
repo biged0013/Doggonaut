@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class EnemyHealth : MonoBehaviour
@@ -7,7 +5,7 @@ public class EnemyHealth : MonoBehaviour
 
     public int health;
     bool isAttackingFetched;
-    
+
     void Start()
     {
 
@@ -33,7 +31,7 @@ public class EnemyHealth : MonoBehaviour
         if (collision.CompareTag("Weapon") && isAttackingFetched)
         {
             TakeDamage(collision.gameObject.GetComponent<Weapon>().damage);
-            Debug.Log("Damage: "+ collision.gameObject.GetComponent<Weapon>().damage +"Enemy: " + gameObject.name + " health is: " + health);
+            Debug.Log("Damage: " + collision.gameObject.GetComponent<Weapon>().damage + "Enemy: " + gameObject.name + " health is: " + health);
         }
     }
 }

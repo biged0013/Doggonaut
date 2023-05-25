@@ -7,7 +7,13 @@ public class RocketLaunch : MonoBehaviour
     [SerializeField] private Animator rocketAnimator;
     [SerializeField] private GameObject fire;
     public bool launch;
+    [SerializeField] AudioSource blastoff;
+    public Camera cam;
 
+    private void Start()
+    {
+       
+    }
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.CompareTag("Player"))
@@ -18,14 +24,15 @@ public class RocketLaunch : MonoBehaviour
             collision.gameObject.SetActive(false);
             GameObject.FindGameObjectWithTag("MainCamera").transform.SetParent(gameObject.transform);
             launch = true;
-
+            blastoff.Play();
+            cam.orthographicSize = 20;
         }
     }
     private void Update()
     {
         if (launch)
         {
-            transform.Translate(0, 2 * Time.deltaTime, 0);
+            transform.Translate(0, 30 * Time.deltaTime, 0);
             
         }
     }

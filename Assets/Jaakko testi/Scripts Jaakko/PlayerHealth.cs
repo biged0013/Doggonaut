@@ -9,7 +9,7 @@ public class PlayerHealth : MonoBehaviour
     [SerializeField] Image gameOver;
     private bool canTakeDamage;
     PlayerMovementJaakko playermovement; 
-    public bool isAttackingFetched = true;
+    public bool isAttackingFetched;
     private Color originalColor; // stores the original color of the health images
     [SerializeField] PlayerAudio pAudio;
     void Start()
@@ -33,7 +33,7 @@ public class PlayerHealth : MonoBehaviour
             pAudio.PlaySound("Hurt");
             currentHealth--;
             Debug.Log("Current health: " + currentHealth);
-            GetComponent<Rigidbody2D>().AddForce(new Vector2(0, 20), ForceMode2D.Impulse);
+            GetComponent<Rigidbody2D>().AddForce(new Vector2(0, 7), ForceMode2D.Impulse);
 
             if (currentHealth >= 0 && currentHealth < healthImages.Length)
             {

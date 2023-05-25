@@ -27,6 +27,7 @@ public class PlayerMovementJaakko : MonoBehaviour
     void Start()
     {
         animator = GetComponent<Animator>();
+        health.isAttackingFetched = false;
     }
 
     void Update()
