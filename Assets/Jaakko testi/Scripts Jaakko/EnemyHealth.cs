@@ -7,6 +7,7 @@ public class EnemyHealth : MonoBehaviour
 
     public int health;
     bool isAttackingFetched;
+    
     void Start()
     {
 
@@ -28,7 +29,7 @@ public class EnemyHealth : MonoBehaviour
     }
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        isAttackingFetched = GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerMovementJaakko>().isAttacking;
+        isAttackingFetched = GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerHealth>().isAttackingFetched;
         if (collision.CompareTag("Weapon") && isAttackingFetched)
         {
             TakeDamage(collision.gameObject.GetComponent<Weapon>().damage);

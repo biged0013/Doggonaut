@@ -17,7 +17,8 @@ public class PlayerMovementJaakko : MonoBehaviour
     private bool isWalking = false;
     private bool isJumping = false;
     [SerializeField] float jumpCheckRadius;
-    public bool isAttacking = false;
+    //public bool isAttacking = false;
+    public PlayerHealth health;
 
     [SerializeField] private PlayerAudio pAudio;
 
@@ -40,15 +41,13 @@ public class PlayerMovementJaakko : MonoBehaviour
 
         if (Input.GetKeyDown(KeyCode.Mouse0))
         {
-            isAttacking = true;
+            animator.SetTrigger("isAttacking 0");
+            health.isAttackingFetched = true;
             pAudio.PlaySound("Hit");
-            StartCoroutine(ResetAttackState()); // Start a coroutine to reset the isAttacking state
+            //StartCoroutine(ResetAttackState()); // Start a coroutine to reset the isAttacking state
         }
 
-        if (isAttacking)
-        {
-            // Add your attack code here
-        }
+
 
         if (Input.GetButtonUp("Jump") && rb.velocity.y > 0f)
         {
@@ -107,15 +106,15 @@ public class PlayerMovementJaakko : MonoBehaviour
         animator.SetBool("isIdle", isIdle);
         animator.SetBool("isWalking", isWalking);
         animator.SetBool("isJumping", isJumping);
-        animator.SetBool("isAttacking", isAttacking);
+        //animator.SetTrigger("isAttacking 0");
     }
 
 
 
-    private System.Collections.IEnumerator ResetAttackState()
-    {
-        yield return new WaitForSeconds(0.5f); // Adjust the delay as needed
-        isAttacking = false; // Reset isAttacking to false after a delay
-    }
+    //private System.Collections.IEnumerator ResetAttackState()
+    //{
+    //    yield return new WaitForSeconds(1f); // Adjust the delay as needed
+    //    //isAttacking = false; // Reset isAttacking to false after a delay
+    //}
 
 }
