@@ -27,6 +27,7 @@ public class ParallaxController : MonoBehaviour
         int backCount = transform.childCount;
         mat = new Material[backCount];
         backgrounds = new GameObject[backCount];
+        backSpeed = new float[backCount];
 
         for (int i = 0; i < backCount; i++)
         {
